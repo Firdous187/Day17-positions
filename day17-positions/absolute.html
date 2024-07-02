@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <style>
+        #parent1{
+            width:300px;
+            height: 400px;
+            background-color: aqua;
+            
+        }
+        #child1{
+            width: 200px;
+            height: auto;
+            background-color: brown;
+            position: absolute;
+            right:100px;
+            bottom:100px;
+        }
+        #parent2{
+            width:300px;
+            height: 400px;
+            background-color: aqua;
+            position: relative;
+        }
+        #child2{
+            width: 200px;
+            height: auto;
+            background-color: brown;
+            position: absolute;
+            right:100px;
+            bottom:0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the example of Absolute position</h1>
+
+    <div  id="parent1">
+        <div id="child1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim obcaecati iste debitis, expedita id veritatis! Veniam temporibus nulla vel omnis voluptatum? Enim ut animi et corrupti magnam cumque alias! Dolore!</p>
+            <img src="./images/AB-removebg-preview.png">
+        </div>
+    </div>
+<p>In this we are assigning Position is Absolute only in child class and when we want see the viewport we need to assign left, bottom , top, right then only it shows.</p>
+ 
+    <div id="parent2">
+        <div id="child2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi temporibus perspiciatis corrupti quaerat porro, commodi sequi aliquid eaque alias accusantium neque sunt culpa assumenda quo. Aut repellendus harum quas repudiandae!</p>
+            <img src="./images/ajay-removebg-preview.png">
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>

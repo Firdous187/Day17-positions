@@ -1,0 +1,113 @@
+.actorPic{
+    width: 400px;
+   height: 400px;
+}
+.mainHeading{
+    
+    border: 20px dotted maroon;
+    background-color: black;
+    border-radius:20% ;
+    
+}
+#amiPic{
+    position: relative;
+    right:300px;
+    z-index:18;
+}
+#srkPic{
+    position:relative;
+    right:50px;
+    z-index:17;
+}
+#maheshPic{
+    position: relative;
+    right: 480px;
+    z-index:19;
+}
+#ajayPic{
+    position: relative;
+    right: 700px;
+    z-index:20;
+}
+#akshayPic
+{
+    position: relative;
+    left: 680px;
+    bottom:405px;
+    z-index:22;
+}
+#nagaPic{
+    position: relative;
+    left: 530px;
+    bottom:405px;
+    z-index: 21;
+}
+#naniPic{
+    position: relative;
+    left: 350px;
+    bottom:405px;
+    z-index:22;
+} 
+#ramPic{
+    position: relative;
+    left: 150px;
+    bottom:405px;
+    z-index:23;
+}
+
+.logo{
+    width:100px;
+    height:150px;
+    text-align: center;
+    display:inline;
+    border-radius:20%; 
+    position:sticky;
+    top:0px;
+    background-color: aqua;
+}
+
+
+.komalTravel{
+    color:#4E8324;
+    background-color:#1E212B;
+    text-align: justify;
+    border:50%;
+    width:550px;
+    height: 600px;
+    border: 10px groove #54A495;
+    display: inline-block;
+    padding:1%;
+    margin: 1%;
+    
+}
+.kosolPic{
+    width:300px;
+    height:400px;
+    border:20px double maroon ;
+}
+h1{
+    background-color: #dfb10b;
+    color:#249F8D;
+    text-align:right;
+    position: fixed;
+    top: 0px;
+    right: 700px;
+    
+}
+body{
+    background-color: black;
+}
+.para{
+    color:beige;
+}
+h2{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
